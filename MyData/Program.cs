@@ -31,11 +31,14 @@ namespace MyData
                  int house = 21;
                   string phone = "+38(096)584 22 54";
 
-            stringAddresses = " Страна " + country + ", Область " + region + ", Населённый путк " + locality + ", Улица " + street + ", Дом " + house + ",Тел. " + phone;
+            stringAddresses = " Страна " + country + ", Область " + region + ", Населённый путк " + locality + ", Улица " + street + ", Дом " + house + " Тел. " + phone;
+
 
             System.Console.WriteLine(stringFullNames);
-            System.Console.WriteLine(stringDate);
-            System.Console.WriteLine(stringAddresses);
+
+            System.Console.WriteLine(stringDate.Trim());
+
+            System.Console.WriteLine(stringAddresses.Trim());
 
             System.Console.ReadLine();
 
