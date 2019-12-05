@@ -9,23 +9,33 @@ namespace MyData
     class Program
 
     {
-       static void Main(string[] args)
+        static void Main(string[] rags)
         {
-            string stringMyData1, stringMyDate2;
+            string stringFullNames, stringDate, stringAddresses;
 
              string surname = "Poghosyan";
               string name = "Artur";
                string patronymic = "Robertovich";
 
-            stringMyData1 = surname + " " + name +" " + patronymic;
+            stringFullNames = surname + " " + name +" " + patronymic;
             
              int age = 34;
               double weight = 83.5;
        
-            stringMyDate2 = " возрост " + age + " вес " + weight;
+            stringDate = " возрост " + age + " вес " + weight;
 
-            System.Console.WriteLine(stringMyData1);
-            System.Console.WriteLine(stringMyDate2);
+            string country = "Ukraine";
+              string region = "Odessa";
+               string locality = "Kamianka";
+                string street = "Central";
+                 int house = 21;
+                  string phone = "+38(096)584 22 54";
+
+            stringAddresses = " Страна " + country + ", Область " + region + ", Населённый путк " + locality + ", Улица " + street + ", Дом " + house + ",Тел. " + phone;
+
+            System.Console.WriteLine(stringFullNames);
+            System.Console.WriteLine(stringDate);
+            System.Console.WriteLine(stringAddresses);
 
             System.Console.ReadLine();
 
