@@ -15,7 +15,7 @@ namespace MyData
 
              string surname = "Poghosyan";
               string name = "Artur";
-               string patronymic = "pogosyan";
+               string patronymic = "Robertovich";
 
             stringMyData1 = surname + " " + name +" " + patronymic;
             
